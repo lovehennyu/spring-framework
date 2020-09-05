@@ -52,10 +52,8 @@ import org.springframework.lang.Nullable;
 public interface Resource extends InputStreamSource {
 
 	/**
-	 * Determine whether this resource actually exists in physical form.
-	 * <p>This method performs a definitive existence check, whereas the
-	 * existence of a {@code Resource} handle only guarantees a valid
-	 * descriptor handle.
+	 * 是否存在
+	 * @return
 	 */
 	boolean exists();
 
